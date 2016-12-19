@@ -1,0 +1,11 @@
+This folder contains 5 utility files in regarding to 5 different problems arise in graph theory and Combinatorial Optimization areas.
+
+All the files in this folder have their own actual data input. When users want to include these utilities into their work they should just copy these files into their working directory, alias their own nodes, edges with the name I was using in these files, give their own graph data and at the same time comment out the input data in my utility file, then just using ¡°Include¡± commend to include the corresponding utility.
+
+All files in this folder were written by:
+
+Haoran Zhu
+
+If having any problem feel free to connect the following address:
+
+hzhu94@wsic.edu  
