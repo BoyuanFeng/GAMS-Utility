@@ -4,11 +4,8 @@ Creates a set of nodes and arcs between nodes,
 Creates input/output files, calls include for intermediate file.
 
 NOTES:
--I/O files must be named input/output.txt.
--set containing arcs must be written to input.txt file in the manner
-displayed below
--set of nodes must be given integer values in the same fashion as below
--set of arcs must be printed with separating commas as shown below
+-Set of nodes must be given integer values in the same fashion as below
+-Arguments for $batinclude given in lccMac/lccWin.inc files 
 
 Written by:
 Nathaniel Gale
@@ -38,5 +35,5 @@ set arcs(i,j)
 
 
 *Call the intermediate file
-$batinclude lccWin.inc i arcs 'input.txt' 'output.txt'
+$batinclude lccMac.inc i arcs 'input.txt' 'output.txt'
 
