@@ -25,6 +25,8 @@ $set i %1
 alias (i,j);
 
 *create input/output text file
+$call del /f %3
+$call del /f %4
 $call type nul > %3
 $call type nul > %4
 
